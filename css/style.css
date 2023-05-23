@@ -19,11 +19,11 @@
      border: 0;
      border-bottom: 2px solid #e4e3e3;
      margin-top: 10px;
-}b
+}
 /* Global CSS  end*/
 /* header area start  */
 .donate-now {
-     width: 100%vw;
+     width: 100vw;
      height: 100vh;
      position: relative;
      background: linear-gradient(0deg, rgba(0, 0, 0, 0.6811099439775911) 0%, rgba(0, 0, 8, 0.5186449579831933) 28%, rgba(0, 212, 255, 0) 100%), url("../images/donation1.jpg") no-repeat center center / cover;
