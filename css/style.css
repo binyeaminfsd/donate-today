@@ -1,4 +1,99 @@
-body{
+/* Global CSS  */
+* {
      margin: 0px;
      font-family: 'Roboto', sans-serif;
 }
+.default-btn-deshgn {
+     padding: 10px 20px;
+     border-radius: 5px;
+     color: #fff;
+     background-color: #FF5959;
+     margin-top: 30px;
+     font-size: 16px;
+     border: 0;
+}
+
+.hr-design {
+     width: 42%;
+     margin: auto;
+     border: 0;
+     border-bottom: 2px solid #e4e3e3;
+     margin-top: 10px;
+}b
+/* Global CSS  end*/
+/* header area start  */
+.donate-now {
+     width: 100%vw;
+     height: 100vh;
+     position: relative;
+     background: linear-gradient(0deg, rgba(0, 0, 0, 0.6811099439775911) 0%, rgba(0, 0, 8, 0.5186449579831933) 28%, rgba(0, 212, 255, 0) 100%), url("../images/donation1.jpg") no-repeat center center / cover;
+}
+
+.donate-now-text {
+     width: 50%;
+     height: 100%;
+     margin: auto;
+     text-align: center;
+     color: #fff;
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     justify-content: center;
+}
+
+.donate-now-text h1 {
+     font-size: 60px;
+     margin-bottom: 20px;
+}
+
+.donate-now-text p {
+     font-size: 22px;
+     font-weight: 100;
+}
+
+/* header-area end  */
+
+/* donate today start  */
+.donate-today {
+     margin-top: 150px;
+     text-align: center;
+}
+
+.donate-pricing-area {}
+
+.donate-pricing {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin: 20px;
+}
+
+.donate-pricing h3 {
+     width: 80px;
+     height: 80px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin: 20px;
+     background-color: #FAFAFA;
+     /* border: 1px solid; */
+     border-radius: 4px;
+}
+
+.donate-pricing :nth-child(2) {
+     border: 1px solid #FF5959;
+     background-color: #FFEEEE;
+     color: #FF5959;
+}
+
+.donate-pricing :first-child {
+     margin-left: 0;
+}
+
+.donate-pricing :last-child {
+     margin-right: 0;
+}
+
+
+
+/* donate today end  */
