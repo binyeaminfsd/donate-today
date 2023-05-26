@@ -55,11 +55,15 @@
 
 /* donate today start  */
 .donate-today {
-     margin-top: 150px;
+     margin-top: 100px;
      text-align: center;
 }
+.donate-today-text h2{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
 
-.donate-pricing-area {}
+/* .donate-pricing-area {} */
 
 .donate-pricing {
      display: flex;
@@ -69,8 +73,8 @@
 }
 
 .donate-pricing h3 {
-     width: 80px;
-     height: 80px;
+     width: 100px;
+     height: 100px;
      display: flex;
      align-items: center;
      justify-content: center;
@@ -78,6 +82,7 @@
      background-color: #FAFAFA;
      /* border: 1px solid; */
      border-radius: 4px;
+     font-size: 30px;
 }
 
 .donate-pricing :nth-child(2) {
@@ -97,3 +102,59 @@
 
 
 /* donate today end  */
+
+/* donate plan start  */
+
+.donate-plan-area{
+     margin-top: 100px;
+     text-align: center;
+}
+.donate-plan-text{
+     margin-bottom: 40px;
+
+}
+.donate-plan-text h2{
+     font-size: 40px;
+     margin-bottom: 10px;
+}
+
+/* donate separate  */
+.donate-separate-area{
+     width: 80%;
+     margin: auto;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.separate{
+     width: 220px;
+     height: 200px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     /* border :1px solid; */
+     text-align: left;
+     /* width: 30%; */
+     border-radius: 5px;
+     padding: 20px 20px;
+     margin: 0 10px;
+}
+.separate h4{
+     font-size: 25px;
+     margin-bottom: 20px;
+}
+
+/* donate plan end */
+
+.donate-separate-area>:first-child{
+     background-color: rgba(79, 157, 166, 0.1);
+}
+.donate-separate-area>:nth-child(2){
+     background-color:rgba(255, 89, 89, 0.1);
+}
+.donate-separate-area>:last-child{
+     background-color: #FFF4D6;
+}
+
