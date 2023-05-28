@@ -3,7 +3,8 @@
      margin: 0px;
      font-family: 'Roboto', sans-serif;
 }
-.default-btn-deshgn {
+
+.default-btn-design {
      padding: 10px 20px;
      border-radius: 5px;
      color: #fff;
@@ -20,6 +21,7 @@
      border-bottom: 2px solid #e4e3e3;
      margin-top: 10px;
 }
+
 /* Global CSS  end*/
 /* header area start  */
 .donate-now {
@@ -58,9 +60,10 @@
      margin-top: 100px;
      text-align: center;
 }
-.donate-today-text h2{
-    font-size: 40px;
-    margin-bottom: 10px;
+
+.donate-today-text h2 {
+     font-size: 40px;
+     margin-bottom: 10px;
 }
 
 /* .donate-pricing-area {} */
@@ -105,21 +108,23 @@
 
 /* donate plan start  */
 
-.donate-plan-area{
+.donate-plan-area {
      margin-top: 100px;
      text-align: center;
 }
-.donate-plan-text{
+
+.donate-plan-text {
      margin-bottom: 40px;
 
 }
-.donate-plan-text h2{
+
+.donate-plan-text h2 {
      font-size: 40px;
      margin-bottom: 10px;
 }
 
 /* donate separate  */
-.donate-separate-area{
+.donate-separate-area {
      width: 80%;
      margin: auto;
      display: flex;
@@ -127,7 +132,7 @@
      justify-content: center;
 }
 
-.separate{
+.separate {
      width: 220px;
      height: 200px;
      display: flex;
@@ -141,20 +146,61 @@
      padding: 20px 20px;
      margin: 0 10px;
 }
-.separate h4{
+
+.separate h4 {
      font-size: 25px;
      margin-bottom: 20px;
 }
 
-/* donate plan end */
 
-.donate-separate-area>:first-child{
+.donate-separate-area>:first-child {
      background-color: rgba(79, 157, 166, 0.1);
 }
-.donate-separate-area>:nth-child(2){
-     background-color:rgba(255, 89, 89, 0.1);
+
+.donate-separate-area>:nth-child(2) {
+     background-color: rgba(255, 89, 89, 0.1);
 }
-.donate-separate-area>:last-child{
+
+.donate-separate-area>:last-child {
      background-color: #FFF4D6;
 }
 
+/* donate plan end */
+
+/* Contribute area  */
+.contribute-area {
+     display: grid;
+     place-items: center;
+     margin: 100px 0;
+}
+
+
+
+
+.contribute {
+     width: 61%;
+     display: grid;
+     /* justify-items: center; */
+     align-items: center;
+     grid-template-columns: 1fr 1fr;
+     margin: 20px 0;
+     
+}
+.contribute-text h3{
+     font-size: 40px;
+     margin-bottom: 20px;
+}
+.contribute-img {
+
+     margin: left    ;
+}
+
+.contribute img {
+     width: 300px;
+}
+
+
+
+
+
+/* Contribute area end */
