@@ -1,7 +1,8 @@
+
 /* Global CSS  */
 * {
      margin: 0px;
-     font-family: 'Roboto', sans-serif;
+     font-family: 'Poppins', sans-serif;
 }
 
 .default-btn-design {
@@ -25,14 +26,14 @@
 /* Global CSS  end*/
 /* header area start  */
 .donate-now {
-     width: 100vw;
+     width: 100%;
      height: 100vh;
      position: relative;
      background: linear-gradient(0deg, rgba(0, 0, 0, 0.6811099439775911) 0%, rgba(0, 0, 8, 0.5186449579831933) 28%, rgba(0, 212, 255, 0) 100%), url("../images/donation1.jpg") no-repeat center center / cover;
 }
 
 .donate-now-text {
-     width: 50%;
+     width: 55%;
      height: 100%;
      margin: auto;
      text-align: center;
@@ -44,7 +45,7 @@
 }
 
 .donate-now-text h1 {
-     font-size: 60px;
+     font-size: 55px;
      margin-bottom: 20px;
 }
 
@@ -62,7 +63,7 @@
 }
 
 .donate-today-text h2 {
-     font-size: 40px;
+     font-size: 35px;
      margin-bottom: 10px;
 }
 
@@ -119,13 +120,13 @@
 }
 
 .donate-plan-text h2 {
-     font-size: 40px;
+     font-size: 35px;
      margin-bottom: 10px;
 }
 
 /* donate separate  */
 .donate-separate-area {
-     width: 80%;
+     width: 90%;
      margin: auto;
      display: flex;
      align-items: center;
@@ -133,8 +134,8 @@
 }
 
 .separate {
-     width: 220px;
-     height: 200px;
+     width: 260px;
+     height: 260px;
      display: flex;
      align-items: center;
      justify-content: center;
@@ -144,14 +145,17 @@
      /* width: 30%; */
      border-radius: 5px;
      padding: 20px 20px;
-     margin: 0 10px;
+     margin: 0 15px;
 }
 
 .separate h4 {
-     font-size: 25px;
+     font-size: 20px;
      margin-bottom: 20px;
 }
 
+.separate p {
+     font-size: 14px;
+}
 
 .donate-separate-area>:first-child {
      background-color: rgba(79, 157, 166, 0.1);
@@ -169,8 +173,10 @@
 
 /* Contribute area  */
 .contribute-area {
-     display: grid;
-     place-items: center;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
      margin: 100px 0;
 }
 
@@ -178,29 +184,107 @@
 
 
 .contribute {
-     width: 61%;
-     display: grid;
-     /* justify-items: center; */
+     width: 68%;
+     display: flex;
+
      align-items: center;
-     grid-template-columns: 1fr 1fr;
+
      margin: 20px 0;
-     
+
 }
-.contribute-text h3{
-     font-size: 40px;
+
+.contribute-text {
+     width: 50%;
+
+}
+
+.first .contribute-text {
+     margin-right: 50px;
+}
+
+.secund .contribute-text {
+     margin-left: 50px;
+}
+
+.contribute-text h3 {
+     font-size: 35px;
      margin-bottom: 20px;
 }
+
 .contribute-img {
 
-     margin: left    ;
+     margin: auto;
 }
 
 .contribute img {
-     width: 300px;
+     width: 400px;
+     border-radius: 10px;
 }
 
-
-
-
-
 /* Contribute area end */
+
+/* updates area  */
+.updates-text h3 {
+     font-size: 35px;
+     margin-bottom: 20px;
+}
+
+.updates-text {
+     margin: auto;
+     text-align: center;
+     width: 35%;
+     margin-bottom: 50px;
+
+}
+
+.input-area {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 700px;
+     height: 170px;
+     margin: auto;
+     background-color: #FFF4D6;
+     margin-bottom: 100px;
+}
+
+.search-input {
+     display: flex;
+     align-items: flex-end;
+     justify-content: center;
+     margin: 0;
+}
+
+.search-input input[type=text] {
+     border: 0;
+     padding: 12px 0;
+}
+
+.search-input input[type=button] {
+     border-radius: 0;
+     margin-left: -5px;
+}
+
+/* updates area end */
+
+/* footer area  */
+
+.footer-area {
+     height: 180px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: #000;
+     text-align: center;
+}
+
+.footer-area h3 {
+     color: #FF5959;
+     margin-bottom: 40px;
+}
+
+.footer-area small {
+     color: #fff;
+}
+
+/* footer area end */
